@@ -11,8 +11,8 @@ Você terá 3 variáveis, sendo elas:
 
 const precoCombustivel = 5.79;
 const kmPorLitros = 10;
-const distanciaEmKm = 100;
+const distanciaEmKm = 480;
 
 let calcularViagem = (distanciaEmKm / kmPorLitros) * precoCombustivel;
 
-console.log(calcularViagem);
+console.log(calcularViagem.toFixed(2));
